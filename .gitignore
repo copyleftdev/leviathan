@@ -1,0 +1,33 @@
+# Build artifacts
+/target
+debug/
+*.d
+*.o
+*.so
+*.dylib
+
+# Cargo
+Cargo.lock
+**/*.rs.bk
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.*
+*.pem
+*.key
+
+# OS
+Thumbs.db
+.directory
+
+# Test output
+/tmp/
+*.txt.bak
