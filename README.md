@@ -116,7 +116,7 @@ leviathan -d example.com -v
 
 ```bash
 # From source
-git clone https://github.com/your-org/leviathan.git
+git clone https://github.com/copyleftdev/leviathan.git
 cd leviathan
 cargo build --release
 cp target/release/leviathan /usr/local/bin/
